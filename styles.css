@@ -18,7 +18,7 @@ li {
 
 li span {
   display: block;
-  font-size: 4.5rem;
+  font-size: 7.5rem;
 }
 
 /* general styling */
@@ -29,20 +29,30 @@ body {
 }
 
 body {
+  font-size: 200%;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  background-color: #ffd54f;
+  background-image: url('/ireland-2345992_1920.jpg');
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue',
-    sans-serif;
+  font-family: impact, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell,
+    'Helvetica Neue', sans-serif;
+  text-shadow: 2px 2px #ff0000;
 }
 
 .container {
-  color: #333;
+  color: #ccff00;
   margin: 0 auto;
   padding: 0.5rem;
   text-align: center;
+}
+
+.credits {
+  color: #ccff00;
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+  font-size: 18px;
 }
